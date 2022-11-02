@@ -1,5 +1,6 @@
 # AppFronCallp
-
+Run $ npm install para instalar todas las dependencias del proyecto
+Run $ ng serve -o para levantar la app en local
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.9.
 
 ## Development server
