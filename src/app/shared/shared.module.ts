@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
   //Para usar estos componentes en otros modulos debo exportarlos
   exports:[
     NavbarComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
