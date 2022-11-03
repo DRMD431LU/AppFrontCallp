@@ -22,6 +22,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-3);
-  color: var(--color-4);
+  background-color: var(--color-4);
+
 }
