@@ -3,10 +3,10 @@
 
 :root {
   --color-1: #1DB954;
-  --color-2: #323232;
-  --color-3: #1c1b1b;
+  --color-2: #433e3e;
+  --color-3: #062ffd;
   --color-4: #FFFFFF;
-  --color-5: #181818;
+  --color-5: #930909;
   --font-size-1: 1rem;
   --font-size-2: 1.2rem;
   --font-size-3: 1.8rem;
@@ -23,17 +23,5 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--color-3);
-  font-family: var(--font-family-1);
-  font-size: var(--font-size-1);
   color: var(--color-4);
-}
-
-input,
-button {
-  cursor: pointer;
-  font-family: var(--font-family-1);
-}
-
-button:disabled {
-  opacity: .5;
 }

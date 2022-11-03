@@ -1,1 +1,90 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-md navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-house-heart-fill"></i>
+      <span class="text-warning">Callpulli</span>
+    </a>
+
+    <!--Boton colapsable-->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menu"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Elementos del menu colapsable-->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conócenos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Servicios
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+
+      <hr class="text-white-50" />
+
+      <!--Iconos redes sociales-->
+      <ul class="navbar-nav flex-row flex-wrap text-light">
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-whatsapp"></i>
+          <small class="d-md-none ms-2">Whatsapp</small>
+        </li>
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-facebook"></i>
+          <small class="d-md-none ms-2">Facebook</small>
+        </li>
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-messenger"></i>
+          <small class="d-md-none ms-2">Messenger</small>
+        </li>
+        <li class="nav-item col-6 col-md-auto p-3">
+          <i class="bi bi-telephone"></i>
+          <small class="d-md-none ms-2">Telefono</small>
+        </li>
+      </ul>
+      <!--Formulario de busqueda-->
+      <form class="d-flex">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Buscar"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+      </form>
+
+      <!--Boton informacion-->
+      <form class="d-flex"></form>
+      <button class="btn btn-outline-warning d-none d-md-inline-block" type="submit">Informacion</button>
+    </div>
+  </div>
+</nav>
